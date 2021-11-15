@@ -1,0 +1,9 @@
+    1  git clone github.com/Pekter09/AtivFinalVersionamento.git
+    2  git clone https://github.com/Pekter09/AtivFinalVersionamento.git
+    3  cd AtivFinalVersionamento/
+    4  git checkout -b feature/subtracao
+    5  git add .
+    6  git commit -m "Função para subtrair os valores"
+    7  git push origin feature/subtracao
+    8  git checkout master
+    9  history > LOG_RicardoBotelho
