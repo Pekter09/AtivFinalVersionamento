@@ -1,0 +1,35 @@
+    1  git clone https://github.com/Pekter09/AtivFinalVersionamento.git
+    2  cd AtivFinalVersionamento/
+    3  git checkout -b feature/multiplicacao
+    4  git add .
+    5  git commit -m "Função para multiplicação de valores"
+    6  git checkout master
+    7  git checkout -b feature/divisao
+    8  git add .
+    9  git commit -m "Função para divisão de valores"
+   10  git push origin feature/divisao
+   11  git checkout master
+   12  git checkout -b feature/multiplicacao
+   13  git checkout -b feature/multiplicacao
+   14  git checkout multiplicacao
+   15  cd multiplicacao
+   16  git checkout -b multiplicacao
+   17  git branch -D feature/multiplicacao
+   18  git branch
+   19  git checkout master
+   20  git branch -D multiplicacao
+   21  git branch
+   22  git checkout -b feature/multiplicacao
+   23  git add .
+   24  git commit -m "Função para multiplicacao de valores"
+   25  git push origin feature/multiplicacao
+   26  git checkout master
+   27  git add .
+   28  git commit -m "Adição de readme"
+   29  git pull
+   30  git push origin master
+   31  git tag -a 1.0.0 -m "Lançamento da primeira versão  da aplicação"
+   32  git add .
+   33  git pull
+   34  git push origin master
+   35  history > LOG_PedroCouto
