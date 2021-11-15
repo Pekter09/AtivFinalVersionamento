@@ -1,0 +1,8 @@
+    1  git clone https://github.com/Pekter09/AtivFinalVersionamento.git
+    2  cd AtivFinalVersionamento/
+    3  git checkout -b feature/soma 
+    4  git add .
+    5  git commit -m "Função para somar de valores"
+    6  git push origin feature/soma
+    7  git checkout master 
+    8  history > LOG_JohnLennon
